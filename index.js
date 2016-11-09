@@ -11,7 +11,7 @@
   /**
    * Determines if the point lies inside or outside of ellipse
    * @param  {Array.<Number>} point
-   * @param  {Array.<Number>} c
+   * @param  {Array.<Number>} c  ellipse center
    * @param  {Number}         rx X radius
    * @param  {Number}         ry Y radius
    * @param  {Number}         rotation Radians
@@ -26,7 +26,7 @@
     var tdx = cos * dx + sin * dy,
         tdy = sin * dx - cos * dy;
 
-  	return (tdx * tdx) / (rx * rx) + (tdy * tdy) / (ry * ry) <= 1;
+    return (tdx * tdx) / (rx * rx) + (tdy * tdy) / (ry * ry) <= 1;
   }
 
   return pointInEllipse;
