@@ -1,0 +1,33 @@
+{
+  "name": "point-in-ellipse",
+  "version": "1.0.0",
+  "description": "Determine if a point belongs to an ellipse",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w8r/point-in-ellipse.git"
+  },
+  "directories": {
+    "lib": ".",
+    "example": "example",
+    "test": "test"
+  },
+  "keywords": [
+    "point",
+    "ellipse",
+    "inside",
+    "in"
+  ],
+  "author": "Alexander Milevski <info@w8r.name>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/w8r/point-in-ellipse/issues"
+  },
+  "homepage": "https://github.com/w8r/point-in-ellipse#readme",
+  "devDependencies": {
+    "tape": "^4.6.2"
+  }
+}
