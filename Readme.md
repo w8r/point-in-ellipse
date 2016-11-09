@@ -1,4 +1,4 @@
-# Point in ellipse ([Demo](https://w8r.github.io/point-in-ellipse/example/))
+# Point in ellipse ([Demo](https://w8r.github.io/point-in-ellipse/example/)) [![npm version](https://badge.fury.io/js/point-in-ellipse.svg)](https://badge.fury.io/js/point-in-ellipse) [![CircleCI](https://circleci.com/gh/w8r/point-in-ellipse.svg?style=shield)](https://circleci.com/gh/w8r/point-in-ellipse)
 
 Determine if the point is inside of the ellipse or out, based on ellipse equation.
 
