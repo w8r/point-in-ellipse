@@ -1,6 +1,6 @@
 # Point in ellipse ([Demo](https://w8r.github.io/point-in-ellipse/example/)) [![npm version](https://badge.fury.io/js/point-in-ellipse.svg)](https://badge.fury.io/js/point-in-ellipse) [![TravisCI](https://travis-ci.org/w8r/point-in-ellipse.svg?branch=master)](https://travis-ci.org/w8r/point-in-ellipse)
 
-![Screenshot](https://user-images.githubusercontent.com/26884/41228890-41ae99fe-6d7a-11e8-866e-b208cd1bcbdd.png)
+<img src="https://user-images.githubusercontent.com/26884/41228890-41ae99fe-6d7a-11e8-866e-b208cd1bcbdd.png" width="300" alt="screenshot">
 
 Determine if the point is inside of the ellipse or out, based on ellipse equation.
 
