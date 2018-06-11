@@ -1,6 +1,6 @@
 {
   "name": "point-in-ellipse",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Determine if a point belongs to an ellipse",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/w8r/point-in-ellipse#readme",
   "devDependencies": {
-    "tape": "^4.6.2"
+    "install": "^0.11.0",
+    "tape": "^4.9.1"
   }
 }

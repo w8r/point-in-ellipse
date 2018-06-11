@@ -1,4 +1,6 @@
-# Point in ellipse ([Demo](https://w8r.github.io/point-in-ellipse/example/)) [![npm version](https://badge.fury.io/js/point-in-ellipse.svg)](https://badge.fury.io/js/point-in-ellipse) [![CircleCI](https://circleci.com/gh/w8r/point-in-ellipse.svg?style=shield)](https://circleci.com/gh/w8r/point-in-ellipse)
+# Point in ellipse ([Demo](https://w8r.github.io/point-in-ellipse/example/)) [![npm version](https://badge.fury.io/js/point-in-ellipse.svg)](https://badge.fury.io/js/point-in-ellipse) [![TravisCI](https://travis-ci.org/w8r/point-in-ellipse.svg?branch=master)](https://travis-ci.org/w8r/point-in-ellipse)
+
+![Screenshot](https://user-images.githubusercontent.com/26884/41228890-41ae99fe-6d7a-11e8-866e-b208cd1bcbdd.png)
 
 Determine if the point is inside of the ellipse or out, based on ellipse equation.
 
@@ -11,7 +13,7 @@ var c  = [100, 100];
 var rx = 100, ry = 200;
 var rotation = 45 * (Math.PI / 180); // rotation in radians
 
-inside([150, 150], c, rx, ry, rotation);
+inside(150, 150, c[0], c[1], rx, ry, rotation);
 // true
 
 ```
@@ -19,7 +21,7 @@ inside([150, 150], c, rx, ry, rotation);
 # API
 
 ```js
-pointInEllipse([px, py], [cx, cy], rx, ry, rotation = 0);
+pointInEllipse(px, py, cx, cy, rx, ry, rotation = 0);
 ```
 
 # Usage

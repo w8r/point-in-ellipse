@@ -48,7 +48,9 @@ function render(evt) {
 
   ctx.clearRect(0, 0, W, H);
 
-  var inside = pointInEllipse([mouseX, mouseY], c, r[0], r[1], tilt);
+  var inside = pointInEllipse(mouseX, mouseY, c[0], c[1], r[0], r[1], tilt);
+
+  canvas.style.cursor = inside ? 'pointer' : 'default';
 
   ctx.globalAlpha = 0.7;
   ctx.fillStyle   = inside ? '#FF0000' : '#96abcc';
@@ -66,12 +68,9 @@ function render(evt) {
 	ctx.arc(mouseX, mouseY, 10, 0, Math.PI * 2, false);
   ctx.closePath();
 
-  console.log(c, r, [mouseX, mouseY], inside);
-
   ctx.fillStyle   = '#8ED6FF';
   ctx.lineWidth   = 5;
   ctx.strokeStyle = 'black';
   ctx.stroke();
   ctx.fill();
-
 }

@@ -17,17 +17,15 @@
    * @param  {Number}         rotation Radians
    * @return {Boolean}
    */
-  function pointInEllipse (point, c, rx, ry, rotation) {
+  return function pointInEllipse (px, py, cx, cy, rx, ry, rotation) {
     rotation = rotation || 0;
     var cos = Math.cos(rotation),
         sin = Math.sin(rotation);
-    var dx  = (point[0] - c[0]),
-        dy  = (point[1] - c[1]);
+    var dx  = (px - cx),
+        dy  = (py - cy);
     var tdx = cos * dx + sin * dy,
         tdy = sin * dx - cos * dy;
 
     return (tdx * tdx) / (rx * rx) + (tdy * tdy) / (ry * ry) <= 1;
   }
-
-  return pointInEllipse;
 });
